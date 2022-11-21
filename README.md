@@ -1,4 +1,8 @@
-# Frontend Mentor - News homepage
+#project built through a front-end mentor challenge, in order to train my skills
+
+#projeto construído através de um desafio do front-end mentor, com o intuito de treinar minhas habilidades
+
+## Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
