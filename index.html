@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- styles css -->
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css" media="all" />
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+	<header class="header">
+		<div class="logo__bx">
+			<img src="./assets/images/logo.svg" alt="news homepage's logo" />
+		</div> <!-- logo__bx -->
+		
+		<div class="menu-button">
+			<button id="open-button">
+				<img src="./assets/images/icon-menu.svg" alt="menu's icon" />
+			</button>
+		</div> <!-- menu-button -->
+		
+		<nav class="header__nav">
+			<button id="close-button">
+				<img src="./assets/images/icon-menu-close.svg" alt="close menu's icon" />
+			</button>
+			<ul class="header__menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">New</a></li>
+				<li><a href="#">Popular</a></li>
+				<li><a href="#">Trending</a></li>
+				<li><a href="#">Categories</a></li>
+			</ul> <!-- header__menu -->
+		</nav> <!-- header__nav -->
+	</header> <!-- header -->
+
+	<main>
+		
+		<section class="top-session">
+			<img src="./assets/images/image-web-3-mobile.jpg" alt="web-3's picture" class="top-session__img" />
+	 		<h1 class="top-session__title"> The Bright Future of Web 3.0? </h1>
+			<p class="top-session__text">
+		  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+		  But is it really fulfilling its promise?
+		  </p>
+		  <a href="#" class="top-session__link">READ MORE</a>
+	  </section> <!-- top-session -->
+		
+		<section class="news">
+			<h2 class="news__title">New</h2>
+			<div class="news__box">
+				<h4 class="news__topic">Hydrogen VS Electric Cars</h4>
+				<p class="news__text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+			</div>
+			<div class="news__box">
+				<h4 class="news__topic">The Downsides of AI Artistry</h4>
+				<p class="news__text">What are the possible adverse effects of on-demand AI image generation?</p>
+			</div>
+			<div class="news__box">
+				<h4 class="news__topic">Is VC Funding Drying Up?</h4>
+				<p class="news__text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+			</div>
+		</section> <!-- news -->
+		
+		<section class="ranking">
+			
+			<div class="ranking__box">
+				<div class="ranking__img">
+					<img src="./assets/images/image-retro-pcs.jpg" alt="retro pc" />
+				</div> <!-- ranking__img -->
+				<div class="ranking__content">
+					<span class="ranking__content__number">01</span>
+					<h3 class="ranking__content__title">Reviving Retro PCs</h3>
+					<p class="ranking__content__text">What happens when old PCs are given modern upgrades?</p>
+				</div> <!-- ranking__content -->
+			</div> <!-- ranking__box -->
+			
+			<div class="ranking__box">
+				<div class="ranking__img">
+					<img src="./assets/images/image-top-laptops.jpg" alt="retro pc" />
+				</div> <!-- ranking__img -->
+				<div class="ranking__content">
+					<span class="ranking__content__number">02</span>
+					<h3 class="ranking__content__title">Top 10 Laptops of 2022</h3>
+					<p class="ranking__content__text">Our best picks for various needs and budgets.</p>
+				</div> <!-- ranking__content -->
+			</div> <!-- ranking__box -->
+			
+			<div class="ranking__box">
+				<div class="ranking__img">
+					<img src="./assets/images/image-gaming-growth.jpg" alt="retro pc" />
+				</div> <!-- ranking__img -->
+				<div class="ranking__content">
+					<span class="ranking__content__number">03</span>
+					<h3 class="ranking__content__title">The Growth of Gaming</h3>
+					<p class="ranking__content__text">How the pandemic has sparked fresh opportunities.</p>
+				</div> <!-- ranking__content -->
+			</div> <!-- ranking__box -->
+			
+		</section> <!-- ranking -->
+		
+	</main>
+	
+  <footer class="footer">
+  	<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.io/alissonbatalha">Alisson Batalha</a>.
+ 	 </div>
+  </footer>
+
+	<script src="script.js"></script>
+  
+</body>
+</html>
