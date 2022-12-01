@@ -301,7 +301,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 0;
+    gap: 1em;
 
     width: 100%;
   }
