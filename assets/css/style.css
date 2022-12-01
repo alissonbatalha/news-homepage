@@ -298,8 +298,9 @@ main {
   }
 
   .news__text {
-    font-size: .8em;
+    font-size: .7em;
   }
+
 
   /* ranking */
   .ranking {
@@ -315,7 +316,7 @@ main {
   }
 
   .ranking__img img {
-    width: 120px;
+    width: 130px;
   }
 
   .ranking__box {
@@ -341,6 +342,11 @@ main {
     margin: 0.2em 0;
 
     font-weight: 700;
+  }
+
+  .ranking__content__text {
+    font-size: 13px;
+    line-height: 1.25em;
   }
 
   .attribution {
