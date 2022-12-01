@@ -300,7 +300,7 @@ main {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 1em;
 
     width: 100%;
