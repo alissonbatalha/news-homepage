@@ -330,8 +330,6 @@ main {
 
   .ranking__content {
     width: 100%;
-    
-    margin: 0 1em;
 
     font-size: 0.8em;
   }
@@ -355,7 +353,7 @@ main {
 }
 
 /* === desktop version */
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
   .top-session__img {
     width: 100%;
     margin: 0 auto;
@@ -372,6 +370,8 @@ main {
 
   .ranking__img img {
     width: 175px;
+
+    margin: 0 .5em;
   }
 
   .ranking__content {
