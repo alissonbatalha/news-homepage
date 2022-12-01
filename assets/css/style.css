@@ -298,7 +298,7 @@ main {
   }
 
   .news__text {
-    font-size: 1em;
+    font-size: .8em;
   }
 
   /* ranking */
@@ -329,6 +329,8 @@ main {
 
   .ranking__content {
     width: 100%;
+    
+    margin: 0 1em;
 
     font-size: 0.8em;
   }
